@@ -133,23 +133,5 @@ python training/train_early.py
 4. 复现实验时请记录 Python、PyTorch、CUDA、GPU、随机种子、数据版本、模型版本和关键超参数。
 5. 当前代码默认从 `models/bert-base-chinese` 读取 BERT 权重；该目录需要提前准备，或在训练脚本中改为可访问的模型路径。
 
-## 8. 局限性
 
-当前实现依赖小时级时间戳、事件先验文本和预训练模型，数据质量、事件划分方式及阈值选择都会影响结果。仓库尚未提供统一的公开基准结果表、完整配置文件和自动化端到端评测脚本，因此论文或报告中的结果应附带数据版本和运行配置。
 
-## 9. 引用
-
-如果本项目用于论文、报告或其他研究工作，请补充正式论文信息后引用：
-
-```bibtex
-@software{dstd_cid,
-  title  = {DSTD-CID: Dynamic Semantic Textual Dynamics for Early Chinese Cyberbullying Identification},
-  author = {Machoman6},
-  url    = {https://github.com/Machoman6/DSTD-CID},
-  year   = {2026}
-}
-```
-
-## 10. License
-
-本仓库当前未提供独立的 LICENSE 文件。使用、再分发代码及数据前，请先确认仓库所有者、数据提供方和预训练模型的许可条款。
